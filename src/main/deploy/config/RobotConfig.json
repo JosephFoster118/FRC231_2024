@@ -1,0 +1,94 @@
+{
+    "drive":{
+        "swerve rotate pid":{
+            "p":0.051737,
+            "i":0.0,
+            "d":0.0012334
+        },
+        "swerve rotate feedforward":{
+            "kS":0.29679,
+            "kV":0.0038626,
+            "kA":4.6957E-05
+        },
+        "swerve rotate trapazoidal":{
+            "velocity": 720.0,
+            "acceleration": 720.0
+        },
+        "swerve drive pid":{
+            "p":1.8868,
+            "i":0.0,
+            "d":0.0
+        },
+        "swerve drive feedforward":{
+            "kS": 0.16313,
+            "kV": 2.231,
+            "kA": 0.30326
+        },
+        "front left drive":5,
+        "front left rotate":6,
+        "front left encoder":21,
+        "back left drive":3,
+        "back left rotate":4,
+        "back left encoder":22,
+        "front right drive":8,
+        "front right rotate":7,
+        "front right encoder":20,
+        "back right drive":1,
+        "back right rotate":2,
+        "back right encoder":23,
+        "front left encoder offset":98.3,
+        "back left encoder offset":-30.8,
+        "front right encoder offset":-70.0,
+        "back right encoder offset":-157.5,
+        "swerve kinematics":{
+            "front left":{
+                "x":0.2602738,
+                "y":0.2602738
+            },
+            "front right":{
+                "x":0.2602738,
+                "y":-0.2602738
+            },
+            "back left":{
+                "x":-0.2602738,
+                "y":0.2602738
+            },
+            "back right":{
+                "x":-0.2602738,
+                "y":-0.2602738
+            }
+        }
+    },
+    "climb":{
+        "arm left": 9,
+        "arm right": 10,
+        "arm encoder": 25,
+        "arm encoder offset": 0.0,
+        "elevator left": 11,
+        "elevator right": 12,
+        "elevator encoder": 24
+    },
+    "intake":{
+        "intake motor": 13,
+        "linebreak": 1,
+        "servo": 1
+    },
+    "shooter":{
+        "shooter top": 14,
+        "shooter bottom": 15,
+        "shooter feedforward":{
+            "kS":0.0,
+            "kV":0.0,
+            "kA":0.0
+        },
+        "shooter pid":{
+            "p":0.0,
+            "i":0.0,
+            "d":0.0
+        }
+    },
+    "base size":{
+        "wheel base":2.0,
+        "track width":2.0
+    }
+}
